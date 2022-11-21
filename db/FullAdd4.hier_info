@@ -1,0 +1,35 @@
+|FullAdd4
+A[0] => Sout0.IN0
+A[0] => Cout0.IN0
+A[0] => Cout0.IN0
+A[1] => Sout1.IN0
+A[1] => Cout1.IN0
+A[1] => Cout1.IN1
+A[2] => Sout2.IN0
+A[2] => Cout2.IN0
+A[2] => Cout2.IN1
+A[3] => Sout3.IN0
+A[3] => Cout3.IN0
+A[3] => Cout3.IN1
+B[0] => Sout0.IN1
+B[0] => Cout0.IN1
+B[0] => Cout0.IN0
+B[1] => Sout1.IN1
+B[1] => Cout1.IN1
+B[1] => Cout1.IN1
+B[2] => Sout2.IN1
+B[2] => Cout2.IN1
+B[2] => Cout2.IN1
+B[3] => Sout3.IN1
+B[3] => Cout3.IN1
+B[3] => Cout3.IN1
+Cin => Sout0.IN1
+Cin => Cout0.IN1
+Cin => Cout0.IN1
+Sum[0] <= Sout0.DB_MAX_OUTPUT_PORT_TYPE
+Sum[1] <= Sout1.DB_MAX_OUTPUT_PORT_TYPE
+Sum[2] <= Sout2.DB_MAX_OUTPUT_PORT_TYPE
+Sum[3] <= Sout3.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout3.DB_MAX_OUTPUT_PORT_TYPE
+
+
